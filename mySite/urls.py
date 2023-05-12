@@ -1,16 +1,15 @@
 
 from django.contrib import admin
 from django.urls import path
-#from . import views
-from core import views
+from core import views as core_views
+from portafolio import views as portafolio_views
 from django.conf import settings
 
 urlpatterns = [
-    path('', views.home, name="home"),
-    path('contact/', views.contact, name="contact"),
-    path('portfolio/', views.portfolio, name="portfolio"),
-    path('about/', views.about, name="about"),
-    # path('index/', views.index),
+    path('', core_views.home, name="home"),
+    path('contact/', core_views.contact, name="contact"),
+    path('portfolio/', portafolio_views.portfolio, name="portfolio"),
+    path('about/', core_views.about, name="about"),
     path('admin/', admin.site.urls),
 
 ]

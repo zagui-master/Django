@@ -10,8 +10,8 @@ def contact(request):
     return render(request, "core/contact.html")
 
 
-def portfolio(request):
-    return render(request, "core/portfolio.html")
+# def portfolio(request):
+#    return render(request, "core/portfolio.html")
 
 
 def about(request):

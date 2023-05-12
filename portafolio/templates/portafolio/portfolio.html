@@ -1,0 +1,50 @@
+<!-- @format -->
+
+{% extends 'core/base.html' %}
+<!---->
+{% load static%}
+<!---->
+{% block conten %}
+<!---->
+<title>{% block title %}Portafolio{% endblock %}</title>
+
+<!-- Cabecera -->
+<header
+  class="masthead"
+  style="background-image: url('../../static/img/main.jpg')"
+>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-10 mx-auto">
+        <div class="site-heading">
+          <h1>Bienvenido a nuestro Portafolio de Maderas</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Contenido Principal -->
+
+<div class="container">
+  <!-- Proyecto -->
+
+  <!---->
+  {% for project in projects %}
+
+  <div class="project">
+    <div class="conten-img">
+      <img class="img" src="{{ project.picture.url }}" alt="" />
+    </div>
+    <div class="conten-description">
+      <h2 class="title">{{ project.title }}</h2>
+      <p class="parrafo">{{ project.description }}</p>
+      <p><a href="{{ project.link }} " class="link">Más información</a></p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<!---->
+<!---->
+{% endblock %}

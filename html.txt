@@ -1,0 +1,79 @@
+<div class="row project">
+    <div class="col-lg-4 col-md-1 offset-lg-1">
+      <img class="img-fluid" src="{% static 'img/roble.jpg'%}" alt="" />
+    </div>
+    <div class="col-lg-7 col-md-8">
+      <h2 class="section-heading title">Roble</h2>
+      <p>
+        El roble es una madera dura y fuerte que se utiliza comúnmente para la
+        construcción de muebles, pisos, puertas y revestimientos de paredes. Es
+        una madera duradera y resistente a la humedad, lo que la hace ideal para
+        su uso en ambientes interiores y exteriores.
+      </p>
+      <p><a href="http://google.com">Más información</a></p>
+    </div>
+  </div>
+  <!-- Proyecto -->
+  <div class="row project">
+    <div class="col-lg-4 col-md-1 offset-lg-1">
+      <img class="img-fluid" src="{% static 'img/cedro.jpg'%}" alt="" />
+    </div>
+    <div class="col-lg-7 col-md-8">
+      <h2 class="section-heading title">Cedro</h2>
+      <p>
+        El cedro es una madera aromática que se utiliza para la construcción de
+        muebles y revestimientos de paredes. Es conocido por su alta resistencia
+        a la putrefacción y la humedad, lo que lo hace ideal para su uso en
+        ambientes húmedos o con alta exposición a la intemperie.
+      </p>
+      <p><a href="http://google.com">Más información</a></p>
+    </div>
+  </div>
+
+  <div class="row project">
+    <div class="col-lg-4 col-md-1 offset-lg-1">
+      <img class="img-fluid" src="{% static 'img/caoba.jpg'%}" alt="" />
+    </div>
+    <div class="col-lg-7 col-md-8">
+      <h2 class="section-heading title">Caoba</h2>
+      <p>
+        La caoba es una madera de grano fino que se utiliza para la construcción
+        de muebles y objetos decorativos de alta calidad. Es una madera
+        resistente y duradera que presenta un hermoso color rojizo y un grano
+        uniforme que la hace muy atractiva visualmente.
+      </p>
+      <p><a href="http://google.com">Más información</a></p>
+    </div>
+  </div>
+
+  <div class="row project">
+    <div class="col-lg-4 col-md-1 offset-lg-1">
+      <img class="img-fluid" src="{% static 'img/pino.jpg'%}" alt="" />
+    </div>
+    <div class="col-lg-7 col-md-8">
+      <h2 class="section-heading title">Pino</h2>
+      <p>
+        El pino es una madera liviana y fácil de trabajar, lo que la hace ideal
+        para la construcción de muebles y objetos decorativos. Es una madera
+        económica y versátil que se utiliza ampliamente en la construcción
+        residencial y comercial.
+      </p>
+      <p><a href="http://google.com">Más información</a></p>
+    </div>
+  </div>
+
+  <div class="row project">
+    <div class="col-lg-4 col-md-1 offset-lg-1">
+      <img class="img-fluid" src="{% static 'img/nogal.jpg'%}" alt="" />
+    </div>
+    <div class="col-lg-7 col-md-8">
+      <h2 class="section-heading title">Nogal</h2>
+      <p>
+        El nogal es una madera oscura y rica en color que se utiliza para la
+        construcción de muebles y objetos decorativos de alta calidad. Es una
+        madera dura y resistente que presenta un hermoso grano y una textura
+        suave, lo que la hace muy apreciada en la industria de la madera fina.
+      </p>
+      <p><a href="http://google.com">Más información</a></p>
+    </div>
+  </div>
