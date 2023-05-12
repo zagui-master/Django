@@ -1,0 +1,4 @@
+admin
+masterpass96
+
+python manage.py createsuperuser
