@@ -1,0 +1,12 @@
+crea o levanta el servidor =  python manage.py runserver
+
+crea usuario = python manage.py createsuperuser
+
+crea un nuevo projecto o modulo = python manage.py startapp portafolio
+
+
+primea migracion = python manage.py makemigrations
+segunda migracion = python manage.py migrate
+
+
+librerias para trabajar con django =  pip install django-ckeditor pillow pylint-django pylint-celery

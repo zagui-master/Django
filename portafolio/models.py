@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 
 class project(models.Model):
     title = models.CharField(max_length=50, verbose_name="Titulo")
@@ -12,6 +10,7 @@ class project(models.Model):
     updated = models.DateTimeField(
         auto_now=True, verbose_name="Fecha actualizacion")
     link = models.URLField(verbose_name="Direccion web", null=True, blank=True)
+    price = models.CharField(max_length=20, verbose_name="Precio")
 
     class Meta:
         verbose_name = "Proyecto"
